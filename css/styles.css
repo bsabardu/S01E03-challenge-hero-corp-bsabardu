@@ -1,0 +1,136 @@
+body {
+    background-color: #d3d3d3;
+    font-family: sans-serif;
+    line-height: 1.2em;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid black;
+    max-width: 960px;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: normal;
+    display: inline;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #8B0000;
+    margin: 1.2em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.diffusion {
+    font-style: italic;
+    text-align: center;
+
+}
+
+hr {
+    border: 1px solid black;
+    margin: 16px 0;
+}
+
+p {
+    margin: 16px 0;
+}
+
+.title {
+    border-top: 2px solid #8B0000;
+    border-bottom: 2px solid #8B0000;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.label-serie {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 4px 16px;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 0 4em;
+}
+
+.presentation {
+    padding: 4px 16px;
+    background-color: #EEEEEE;
+}
+
+
+.presentation img {
+    display: block;
+    margin: 1.5em auto;
+    width: 8em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.actor a {
+    display: block;
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 4px 0;
+    margin: 4px 0;
+    text-align: center;
+    border-radius: 100px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #8B0000;
+}
+
+.actor a:hover {
+    background-color: #d3d3d3;
+}
+
+.images {
+    border: 1px solid #d3d3d3;
+    width: 16em;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+.images img {
+    width: 100%;
+    padding: 1.5em 1.5em 0;
+}
+
+.images h3 {
+    margin: 1em;
+}
+
+footer {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 1em 0 3em; 
+}
